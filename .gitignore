@@ -1,0 +1,15 @@
+# 忽略 Python 编译文件
+*.pyc
+
+# 忽略开发环境中生成的文件
+__pycache__/
+.env
+
+# 忽略临时文件
+temp/
+*.log
+
+# 忽略编辑器自动生成的文件和目录
+.vscode/
+.idea/
+*.iml
