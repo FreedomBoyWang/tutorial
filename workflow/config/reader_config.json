@@ -1,0 +1,39 @@
+{
+    "configuration": {
+        "workspace_folder": ".",
+        "select_template": "MATLAB矩阵",
+        "file_ext": [
+            ".txt",
+            ".csv",
+            ".TXT",
+            ".CSV"
+        ]
+    },
+    "templates": [
+        {
+            "name": "MATLAB矩阵",
+            "parameters": {
+                "sep": "\t",
+                "header": null,
+                "na_values": [
+                    "NaN"
+                ],
+                "encoding": "utf-8"
+            }
+        },
+        {
+            "name": "带表头的矩阵",
+            "parameters": {
+                "sep": ",",
+                "header": 0,
+                "na_values": [
+                    "",
+                    "NA",
+                    "null"
+                ],
+                "encoding": "utf-8",
+                "comment": "#"
+            }
+        }
+    ]
+}

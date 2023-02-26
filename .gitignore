@@ -8,8 +8,3 @@ __pycache__/
 # 忽略临时文件
 temp/
 *.log
-
-# 忽略编辑器自动生成的文件和目录
-.vscode/
-.idea/
-*.iml
