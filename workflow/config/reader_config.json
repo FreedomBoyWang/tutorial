@@ -1,7 +1,7 @@
 {
     "configuration": {
         "workspace_folder": ".",
-        "select_template": "MATLAB矩阵",
+        "select_template": "带表头的矩阵",
         "file_ext": [
             ".txt",
             ".csv",
